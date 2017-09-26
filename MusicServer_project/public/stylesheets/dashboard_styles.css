@@ -1,0 +1,38 @@
+﻿
+img[id="title"] {
+    width: 150px;
+}
+
+ul[class="nav"] > li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul[class="nav"] > li > a > i {
+    width: 160px;
+    font-size: -webkit-xxx-large !important;
+    color: orange;
+}
+
+ul[class="nav"] > li > label {
+    margin-left: 80px;
+    color: #5E5E5E;
+}
+
+ul > li > a > i {
+    color: orange;
+}
+
+div[class="avatar"] {
+    width: 130px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+div[id="page-wrapper"] {
+    margin-left: 210px !important;
+}
+
+div[class="navbar-default sidebar"] {
+    width: 210px !important;
+}

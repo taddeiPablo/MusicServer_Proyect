@@ -1,0 +1,3 @@
+C:\Users\pablo\proyectos\MusicServer_project\MusicServer_project\obj\Debug\MusicServer_project.njsprojResolveAssemblyReference.cache
+C:\Users\pablo\proyectos\MusicServer_project\MusicServer_project\obj\Debug\MusicServer_project.njsproj.CoreCompileInputs.cache
+C:\Users\pablo\proyectos\MusicServer_project\MusicServer_project\bin\Microsoft.NodejsTools.WebRole.dll

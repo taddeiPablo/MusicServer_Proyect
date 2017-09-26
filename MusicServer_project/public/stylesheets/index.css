@@ -1,0 +1,46 @@
+﻿
+nav {
+    border-bottom: 1px solid #c9c6c6;
+}
+
+.img_title {
+    width: 295px;
+}
+
+div[class="container"] > h2 {
+    padding: 30px;
+    text-decoration: double;
+    color: orange;
+}
+
+div[class="panel-footer"] {
+    background-color: #f7f7f7;
+}
+
+div[id="image"] {
+    border: 0px;
+    padding: 15px;
+}
+
+div[class="panel-footer"] {
+    height: 85px;
+    border-top: 1px solid #c9c6c6;
+    margin-top: 50px;
+}
+
+div[class="container"] > div[class="row"] {
+    padding-bottom: 50px;
+}
+
+div[class="card"] {
+    margin: auto;
+    width: 470px;
+}
+
+div[id="img"] {
+    padding-right: 95px;
+}
+
+img[class="card-img-top"] {
+    width: 350px;
+}

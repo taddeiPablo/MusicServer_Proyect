@@ -1,0 +1,18 @@
+﻿doctype html
+html
+  head
+    title= 'Music Server'
+    link(rel='stylesheet', href='../vendor/bootstrap/css/bootstrap.min.css')
+    link(href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css")
+    link(rel="stylesheet", href="../stylesheets/dist/css/sb-admin-2.css")
+    link(rel="stylesheet", href="../stylesheets/dashboard_styles.css")
+    script(src='../vendor/jquery/jquery.js')
+    script(src='../vendor/bootstrap/js/bootstrap.min.js')
+    script(src='../javascripts/sb-admin-2.js')
+    block styles
+    block scripts
+  body
+    div(id="wrapper")
+        include ../includes/nav.pug
+        include ../includes/content.pug
+        //include ../includes/footer.pug

@@ -1,0 +1,60 @@
+﻿extends layout
+
+block styles
+    link(rel='stylesheet', href='/stylesheets/index.css')
+
+block content
+    nav(class="navbar navbar-toggleable-md navbar-light bg-faded")
+        button(class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation")
+            span(class="navbar-toggler-icon")
+        div(class="container")
+            a(class="navbar-brand" href="#")
+                img(class="card-img-top img_title" src="/images/logo4.png" alt="Card image cap")
+            div(class="collapse navbar-collapse" id="navbarTogglerDemo02")
+                ul(class="navbar-nav mr-auto mt-2 mt-md-0")
+                    //li(class="nav-item active")
+                        a(class="nav-link" href="#") Home
+                    //li(class="nav-item")
+                        a(class="nav-link" href="#") Link
+                    //li(class="nav-item")
+                        a(class="nav-link disabled" href="#") Disabled
+                div
+                    label='ingrese al sistema'
+                    form(class="form-inline my-2 my-lg-0")
+                        div(class="form-group")
+                            input(class="form-control mr-sm-2" type="text" placeholder="username")
+                        div(class="form-group")
+                            input(class="form-control mr-sm-2" type="password" placeholder="password")
+                        button(class="btn btn-outline-success my-2 my-sm-0" type="submit") Login
+                    a(href="/dashboard") Forgot Password ?
+    div(id="init")
+        div(class="container")
+            h2='BIENVENIDOS'
+            div(class="row")
+                div(id="img" class="col")
+                    div(id="image" class="card")
+                        img(class="card-img-top" src="/images/music-title_v2.png" alt="Card image cap")
+                div(id="register" class="col")
+                    div(class="card")
+                        div(class="card-header")
+                            label='Crear una nueva Cuenta'
+                        div(class="card-block")
+                            form
+                                div(class="form-group")
+                                    input(type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="username")
+                                div(class="form-group")
+                                    div(class="form-group input-group")
+                                        span(class="input-group-addon")
+                                            i(class="fa fa-envelope-o")
+                                        input(type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email")
+                                div(class="form-group")
+                                    div(class="form-group input-group")
+                                        span(class="input-group-addon")
+                                            i(class="fa fa-lock")
+                                        input(type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="password")
+                                div(class="form-group")
+                                    button(class="btn btn-outline-success my-2 my-sm-0" type="submit") Registrar
+block footer
+    div(class="panel-footer")
+        div(class="container")
+            small Copyright © Pablo Taddei 2017
