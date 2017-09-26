@@ -36,6 +36,9 @@
     <Compile Include="controllers\index_controller.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="public\javascripts\content.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="public\javascripts\jquery\jquery-3.2.1.min.js" />
     <Compile Include="public\javascripts\jquery\jquery.js" />
     <Compile Include="public\javascripts\jquery\jquery.min.js" />
@@ -94,6 +97,8 @@
     <Compile Include="public\vendor\metisMenu\metisMenu.min.js" />
     <Compile Include="public\vendor\morrisjs\morris.js" />
     <Compile Include="public\vendor\morrisjs\morris.min.js" />
+    <Compile Include="public\vendor\popper\popper.js" />
+    <Compile Include="public\vendor\popper\popper.min.js" />
     <Compile Include="public\vendor\raphael\raphael.js" />
     <Compile Include="public\vendor\raphael\raphael.min.js" />
     <Compile Include="routes\dashboard.js">
@@ -122,6 +127,7 @@
     <Content Include="public\stylesheets\dist\css\sb-admin-2.css" />
     <Content Include="public\stylesheets\dist\css\sb-admin-2.min.css" />
     <Content Include="public\stylesheets\index.css" />
+    <Content Include="public\stylesheets\simple-sidebar.css" />
     <Content Include="public\vendor\bootstrap-social\bootstrap-social.css" />
     <Content Include="public\vendor\bootstrap-social\bootstrap-social.less" />
     <Content Include="public\vendor\bootstrap-social\bootstrap-social.scss" />
@@ -259,6 +265,7 @@
     <Folder Include="public\vendor\jquery\" />
     <Folder Include="public\vendor\metisMenu\" />
     <Folder Include="public\vendor\morrisjs\" />
+    <Folder Include="public\vendor\popper\" />
     <Folder Include="public\vendor\raphael\" />
     <Folder Include="routes\" />
     <Folder Include="views\" />

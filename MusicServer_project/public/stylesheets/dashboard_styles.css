@@ -11,28 +11,32 @@ ul[class="nav"] > li{
 ul[class="nav"] > li > a > i {
     width: 160px;
     font-size: -webkit-xxx-large !important;
-    color: orange;
+    color: orange !important;
 }
 
-ul[class="nav"] > li > label {
+/*ul[class="nav"] > li > label {
     margin-left: 80px;
     color: #5E5E5E;
+}*/
+
+ul > li > a > span > i {
+    color: orange;
 }
 
-ul > li > a > i {
-    color: orange;
+ul > li > a {
+    color: orange !important;
 }
 
 div[class="avatar"] {
     width: 130px;
-    margin: auto;
+    margin: 27px;
     margin-top: 25px;
 }
 
-div[id="page-wrapper"] {
+/*div[id="page-wrapper"] {
     margin-left: 210px !important;
 }
 
 div[class="navbar-default sidebar"] {
     width: 210px !important;
-}
+}*/
