@@ -1,1 +1,23 @@
 ﻿extends layout
+
+block scripts
+    script(src='../javascripts/dashboard.js')
+
+block content
+        div
+            div(class="row")
+                div(id="search" class="col") columna busqueda
+block footer
+    div(class="")
+        div(class="column add-bottom")
+            div(id="mainwrap")
+                div(id="nowPlay")
+                        span(class="right" id="npTitle")
+                div(id="audiowrap")
+                    div(class="albums_avatar")
+                        img(src="https://bootdey.com/img/Content/user-453533-fdadfd.png" class="img-thumbnail img-profile")
+                    div(id="audio0")
+                        audio(preload id="audio1" controls="controls") Your browser does not support HTML5 Audio!
+                    //div(id="tracks")
+                        a(id="btnPrev") &laquo;
+                        a(id="btnNext") &raquo;

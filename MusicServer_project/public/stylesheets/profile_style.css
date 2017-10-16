@@ -1,0 +1,17 @@
+﻿/*
+    estilos para el profile
+*/
+
+div[id="avatar"]{
+    width: 250px !important;
+    margin: auto;
+}
+
+form[id="profile"] {
+    width: 400px; 
+    margin: auto;
+}
+
+div[class="card"]{
+    padding-top: 75px;
+}

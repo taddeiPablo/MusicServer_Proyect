@@ -4,7 +4,7 @@ nav {
 }
 
 .img_title {
-    width: 295px;
+    width: 275px;
 }
 
 div[class="container"] > h2 {
@@ -43,4 +43,8 @@ div[id="img"] {
 
 img[class="card-img-top"] {
     width: 350px;
+}
+
+.card {
+    border-radius: 0rem !important;
 }

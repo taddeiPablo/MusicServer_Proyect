@@ -18,15 +18,16 @@ block content
                         a(class="nav-link" href="#") Link
                     //li(class="nav-item")
                         a(class="nav-link disabled" href="#") Disabled
-                div
+                div(id="login")
                     label='ingrese al sistema'
                     form(class="form-inline my-2 my-lg-0")
                         div(class="form-group")
                             input(class="form-control mr-sm-2" type="text" placeholder="username")
                         div(class="form-group")
                             input(class="form-control mr-sm-2" type="password" placeholder="password")
-                        button(class="btn btn-outline-success my-2 my-sm-0" type="submit") Login
-                    a(href="/dashboard") Forgot Password ?
+                        button(class="btn btn-outline btn-warning my-2 my-sm-0" type="submit") Login
+                    small
+                        a(href="/dashboard") Forgot Password ?
     div(id="init")
         div(class="container")
             h2='BIENVENIDOS'
@@ -37,7 +38,7 @@ block content
                 div(id="register" class="col")
                     div(class="card")
                         div(class="card-header")
-                            label='Crear una nueva Cuenta'
+                            h4 Crear una nueva Cuenta
                         div(class="card-block")
                             form
                                 div(class="form-group")
@@ -53,7 +54,7 @@ block content
                                             i(class="fa fa-lock")
                                         input(type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="password")
                                 div(class="form-group")
-                                    button(class="btn btn-outline-success my-2 my-sm-0" type="submit") Registrar
+                                    button(class="btn btn-outline btn-warning my-2 my-sm-0" type="submit") Registrar
 block footer
     div(class="panel-footer")
         div(class="container")

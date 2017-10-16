@@ -1,0 +1,28 @@
+﻿extends layout
+
+block styles
+    link(rel='stylesheet', href='/stylesheets/profile_style.css')
+
+block content
+    div(class="container")
+        div(class="center")
+            h1 Mi Perfil
+        div(class="column add-bottom")
+            form(id="profile")
+                div(id="avatar" class="avatar")
+                    img(src="https://bootdey.com/img/Content/user-453533-fdadfd.png" class="img-thumbnail img-profile")
+                    input(type="file")
+                div(class="card")
+                    div(class="card-header")
+                        h4 Datos Personales
+                    div(class="card-block")
+                        div(class="form-group")
+                            input(type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name")
+                        div(class="form-group")
+                            input(type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="lastname")
+                        div(class="form-group")
+                            input(type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="job")
+                        div(class="form-group")
+                            button(class="btn btn-outline btn-warning my-2 my-sm-0" type="submit") Guardar
+                            button(class="btn btn-outline btn-warning my-2 my-sm-0" type="submit") Modificar
+                            button(class="btn btn-outline btn-warning my-2 my-sm-0" type="submit") Cancelar

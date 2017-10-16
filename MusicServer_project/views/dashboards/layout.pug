@@ -6,7 +6,11 @@ html
     link(rel='stylesheet', href='../stylesheets/simple-sidebar.css')
     link(href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css")
     link(rel="stylesheet", href="../stylesheets/dashboard_styles.css")
+    link(rel="stylesheet", href="../stylesheets/jquery-ui.css")
+    // script(src="../javascripts/jquery/jquery-1.12.4.js")
     script(src='../vendor/jquery/jquery.js')
+    script(src="../javascripts/jquery-ui/jquery-ui.js")
+    //script(src='../vendor/jquery/jquery.js')
     script(src='../vendor/popper/popper.min.js')
     script(src='../vendor/bootstrap/js/bootstrap.min.js')
     script(src='../javascripts/content.js')
@@ -16,4 +20,4 @@ html
     div(id="wrapper")
         include ../includes/nav.pug
         include ../includes/content.pug
-        //include ../includes/footer.pug
+        block footer

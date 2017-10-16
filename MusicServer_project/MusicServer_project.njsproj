@@ -36,9 +36,17 @@
     <Compile Include="controllers\index_controller.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="controllers\user_controller.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="public\javascripts\content.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="public\javascripts\dashboard.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="public\javascripts\jquery-ui\jquery-ui.js" />
+    <Compile Include="public\javascripts\jquery\jquery-1.12.4.js" />
     <Compile Include="public\javascripts\jquery\jquery-3.2.1.min.js" />
     <Compile Include="public\javascripts\jquery\jquery.js" />
     <Compile Include="public\javascripts\jquery\jquery.min.js" />
@@ -127,6 +135,10 @@
     <Content Include="public\stylesheets\dist\css\sb-admin-2.css" />
     <Content Include="public\stylesheets\dist\css\sb-admin-2.min.css" />
     <Content Include="public\stylesheets\index.css" />
+    <Content Include="public\stylesheets\jquery-ui.css" />
+    <Content Include="public\stylesheets\profile_style.css">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="public\stylesheets\simple-sidebar.css" />
     <Content Include="public\vendor\bootstrap-social\bootstrap-social.css" />
     <Content Include="public\vendor\bootstrap-social\bootstrap-social.less" />
@@ -212,7 +224,13 @@
     <Content Include="public\vendor\metisMenu\metisMenu.min.css" />
     <Content Include="public\vendor\morrisjs\morris.css" />
     <Content Include="README.md" />
+    <Content Include="views\dashboards\artists.pug">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="views\dashboards\dashboard.pug">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="views\dashboards\profile.pug">
       <SubType>Code</SubType>
     </Content>
     <Content Include="views\includes\content.pug">
@@ -236,6 +254,7 @@
     <Folder Include="public\javascripts\" />
     <Folder Include="public\javascripts\jquery\" />
     <Folder Include="public\images\" />
+    <Folder Include="public\javascripts\jquery-ui\" />
     <Folder Include="public\stylesheets\" />
     <Folder Include="public\stylesheets\bootstrap-4.0.0-alpha.6-dist\" />
     <Folder Include="public\stylesheets\bootstrap-4.0.0-alpha.6-dist\css\" />
